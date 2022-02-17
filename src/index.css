@@ -1,0 +1,58 @@
+html {
+  margin: auto;
+} 
+
+* {
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+select, option {
+  margin: 9vw;
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: transparent;
+  appearance:none;
+  background-image: url("arrowdown.png");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 7px;
+}
+
+body {
+  background-image: url("background.jpg");
+  /* background-color: aliceblue; */
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5px;
+  max-width: 300px;
+  display: inline-block;
+}
+
+.today {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  background-color: rgba(0,0,0, 0.4); 
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.text {
+  font-size: medium;
+  font-weight: normal;
+}
+
+.day {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.minmax {
+  font-size: small;
+}
