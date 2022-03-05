@@ -20,10 +20,6 @@ select, option {
   background-position-y: 7px;
 }
 
-body {
-  background-image: url("background.jpg");
-  /* background-color: aliceblue; */
-}
 
 .card {
   border: 1px solid black;
